@@ -1,196 +1,245 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-    <meta name="author" content="نام برند">
-    <meta name="description" content="رزرو  آنلاین خدمات در محل: جستجو،انتخاب متخصص،پرداخت امن و دریافت خدمات با کیفیت در خانه.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/cb6b12215d.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="نام برند" />
+    <meta
+      name="description"
+      content="رزرو  آنلاین خدمات در محل: جستجو،انتخاب متخصص،پرداخت امن و دریافت خدمات با کیفیت در خانه."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/cb6b12215d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./fontawesome-free-7.1.0-web/css/all.css" />
     <title>AFG Employee</title>
-</head>
-<body>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h2>کار ساز</h2>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="">خانه</a></li>
+            <li><a href="">خدمات</a></li>
+            <li><a href="">چگونه کار می کند</a></li>
+            <li><a href="">کارگران برتر</a></li>
+            <li><a href="">نظرات</a></li>
+          </ul>
+        </div>
+
+        <div class="action">
+          <button class="dark-mode">
+            <i class="fa-regular fa-moon"></i>
+          </button>
+          <button class="btn">ثبت درخواست</button>
+        </div>
+      </nav>
+    </header>
+
     <!-- Hero Section -->
-    <section class="hero">
-
-      <span>
-        <span class="dot"></span>
-        بهترین کاریگران حرفه ای در دسترس شما
-      </span>
-
-      <h1> 
-        کارگر مورد نظر خود را<span> به آسانی پیدا کنید</span>
-      </h1>
-      <p class="hero_description">
-        نلدوان،رنگمال،میخانیک،برقکار و دیگر کاریگران ماهر را در سریعترین زمان پیدا کنید
-      </p>
-
-      <div class="search">
-        <input type="text"placeholder="چه نوع خدمتی نیاز دارید؟"
-        class="search_input">
-        <button class="search_btn">
-          جستجو
-        </button>
-      
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </div>
-
-      <div class="feautures">
-
-      <div>
-        <i class="fa-solid fa-medal"></i>
-        <span>
-          تضمین کیفیت
+    <section
+      class="hero min-h-screen bg-linear-to-br from-[#05100d] via-[#073023e4] to bg-[#05100d] text-white flex flex-col items-center justify-center text-center px-6"
+    >
+      <!-- Top small text -->
+      <div class="mt-2">
+        <span
+          class="inline-flex items-center gap-2 bg-white/5 border border-white/10 text-green-100 px-4 py-1 rounded-full text-sm backdrop-blur-md"
+        >
+          <span
+            class="w-2 h-2 bg-green-400 rounded-full mt-1.5 cursor-pointer"
+          ></span>
+          بهترین کاریگران حرفه ای در دسترس شما
         </span>
       </div>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-<title></title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-</head>
+      <!-- Main heading -->
+      <h1
+        class="text-4xl md:text-6xl font-bold leading-tight text-green-50 mt-5"
+      >
+        کارگر مورد نظر خود را
+        <span>
+          <svg width="650" height="130">
+            <defs>
+              <linearGradient id="grad1">
+                <stop offset="0%" stop-color="rgb(20,230,1)" stop-opacity="" />
+                <stop offset="100%" stop-color="rgb(254,230,0)" />
+              </linearGradient>
+            </defs>
+            <text x="535" y="50" fill="url(#grad1)" font-size="55">
+              به آسانی پیدا کنید
+            </text>
+          </svg>
+        </span>
+      </h1>
+      <!-- description -->
+      <p class="text-lg md:text-xl text-green-100 mt-1 max-w-2xl mb-7">
+        نلدوان، رنگمال، میخانیک، برقکار و دیگر کاریگران ماهر را در سریعترین زمان
+        پیدا کنید
+      </p>
 
-<body>
-<header>
-  <nav>
-    <div class="logo">
-      <h2>کار ساز</h2>
-    </div>
+      <!-- Search Box -->
+      <div class="relative mt-2 w-full max-w-2xl">
+        <input
+          type="text"
+          placeholder="چه نوع خدمتی نیاز دارید؟"
+          class="w-full bg-white/5 border border-white/10 text-green-100 placeholder-green-100 rounded-2xl py-3 pr-18 pl-32 backdrop-blur-md focus:outline-none focus:ring-1 focus:ring-green-400 outline-none"
+        />
+        <!-- Icon -->
+        <i
+          class="fa-solid fa-magnifying-glass absolute right-4 top-1/2 -translate-y-2 text-green-100 text-xl"
+        ></i>
+        <!-- Button -->
+        <button
+          class="absolute left-2 top-1/3 -translate-y-2 bg-linear-to-br from-green-400 via-20% to bg-green-800 hover:bg-green-500 px-6 py-1 rounded-lg font-medium hover:scale-105 transition cursor-pointer"
+        >
+          جستجو -->
+        </button>
+      </div>
 
-    <div class="menu">
-      <ul>
-        <li><a href="">خانه</a></li>
-        <li><a href="">خدمات</a></li>
-        <li><a href="">چگونه کار می کند</a></li>
-        <li><a href="">کارگران برتر</a></li>
-        <li><a href="">نظرات</a></li>
-      </ul>
-    </div>
+      <!-- Features -->
+      <div class="flex flex-wrap justify-center gap-8 mt-10 text-green-100">
+        <div class="flex items-center gap-2">
+          <i
+            class="fa-solid fa-shield-halved text-lg text-green-300 cursor-pointer hover:text-green-400 hover:text-xl"
+          ></i>
+          <span> تضمین کیفیت </span>
+        </div>
 
-    <div class="action">
-      <button class="dark-mode">
-        <i class="fa-regular fa-moon"></i>
-      </button>
-      <button class="btn">ثبت درخواست</button>
-    </div>
+        <div class="flex items-center gap-2">
+          <i
+            class="fa-regular fa-clock text-lg text-green-300 hover:text-green-400 hover:text-xl cursor-pointer"
+          ></i>
+          <span> خدمات ۲۴ ساعته </span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <i
+            class="fa-regular fa-thumbs-up text-lg text-green-300 cursor-pointer hover:text-green-400 hover:text-xl"
+          ></i>
+          <span> رضایت مشتریان </span>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="flex flex-wrap justify-center gap-10 mt-16 mb-1">
+        <div
+          class="bg-white/10 backdrop-blur-md px-8 py-5 rounded-xl text-center hover:scale-105 transition cursor-pointer"
+        >
+          <h3>
+            <svg width="110" height="50">
+              <defs>
+                <linearGradient id="grad1">
+                  <stop
+                    offset="0%"
+                    stop-color="rgb(20,230,1)"
+                    stop-opacity=""
+                  />
+                  <stop offset="100%" stop-color="rgb(254,230,0)" />
+                </linearGradient>
+              </defs>
+              <text x="116" y="40" fill="url(#grad1)" font-size="40">
+                +۲۵۰۰۰
+              </text>
+            </svg>
+          </h3>
+          <p class="text-green-100 mt-2">پروژه تکمیل شده</p>
+        </div>
+
+        <div
+          class="bg-white/10 backdrop-blur-md px-8 py-5 rounded-xl text-center border-[0.1px] border-white/10 border-b-green-400 hover:scale-105 transition cursor-pointer"
+        >
+          <h3>
+            <svg width="110" height="50">
+              <defs>
+                <linearGradient id="grad1">
+                  <stop
+                    offset="0%"
+                    stop-color="rgb(20,230,1)"
+                    stop-opacity=""
+                  />
+                  <stop offset="100%" stop-color="rgb(254,230,0)" />
+                </linearGradient>
+              </defs>
+              <text x="110" y="40" fill="url(#grad1)" font-size="40">
+                +۱۲۰۰۰
+              </text>
+            </svg>
+          </h3>
+          <p class="text-green-100 mt-2">نیروی فعال</p>
+        </div>
+        <div
+          class="bg-white/10 backdrop-blur-md px-8 py-5 rounded-xl text-center hover:scale-105 transition cursor-pointer"
+        >
+          <h3>
+            <svg width="100" height="50">
+              <defs>
+                <linearGradient id="grad1">
+                  <stop
+                    offset="0%"
+                    stop-color="rgb(20,230,1)"
+                    stop-opacity=""
+                  />
+                  <stop offset="100%" stop-color="rgb(254,230,0)" />
+                </linearGradient>
+              </defs>
+              <text x="85" y="40" fill="url(#grad1)" font-size="40">۹۸٪</text>
+            </svg>
+          </h3>
+          <p class="text-green-100 mt-2">رضایت مشتریان</p>
+        </div>
+      </div>
     </section>
 
-    <!-- FAQ Setion -->
-     <section id="FAQ-section" class="min-h-screen py-24 bg-gray-50 dark:bg-emerald-950 dark:text-white">
-        <h2 class="text-4xl text-center mb-16 font-semibold ">
-            سوالات متداول
-        </h2>
-        
-
-       <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12" >
-
-         <article id="employer-faq" class="bg-white p-8 rounded-2xl shadow-md dark:bg-teal-900 dark:shadow-emerald-900">
-            <h3 class="text-2xl font-semibold mb-6 text-yellow-400">
-                 سوالات متداول برای کاربران (کارفرما)
-            </h3>
-            <div class="space-y-4">
-                <details class="border-b pb-3">
-           
-                    <summary  class="cursor-pointer font-medium">1. این وبسایت چگونه کار می‌کند؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        کاربران می‌توانند نوع خدمات مورد نیاز خود مانند نلدوانی، لوله‌کشی، نجاری یا برق‌کاری را انتخاب کنند. سپس درخواست خود را ثبت می‌کنند و کاریگران مرتبط با آن خدمات به آنها معرفی می‌شوند.
-                    </p>
-
-                </details>
-                
-                <details class="border-b pb-3">
-                
-                    <summary class="cursor-pointer font-medium">2. چگونه می‌توانم یک کاریگر پیدا کنم؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        کافی است وارد سایت شوید، نوع خدمات مورد نیاز را انتخاب کنید و درخواست خود را ثبت کنید. سیستم ما نزدیک‌ترین یا مناسب‌ترین کاریگران را به شما پیشنهاد می‌دهد.
-                    </p>
-
-                </details>
-            
-                <details class="border-b pb-3">
-                
-                    <summary class="cursor-pointer font-medium">3. آیا استفاده از این وبسایت رایگان است؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        ثبت درخواست برای کاربران رایگان است. هزینه فقط برای انجام کار توسط کاریگر پرداخت می‌شود.
-                    </p>
-
-                </details>
-                
-                <details class="border-b pb-3">
-                
-                    <summary class="cursor-pointer font-medium">4. چگونه با کاریگر تماس بگیرم؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        بعد از ثبت درخواست، اطلاعات تماس کاریگر یا گزینه ارتباط در داخل سایت برای شما نمایش داده می‌شود.
-                    </p class="mt-2 text-gray-600">
-
-                </details>
-
-                <details class="border-b pb-3">
-                
-                    <summary class="cursor-pointer font-medium">5. هزینه خدمات چگونه تعیین می‌شود؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        هزینه خدمات بسته به نوع کار، زمان و میزان دشواری آن توسط کاریگر تعیین می‌شود و قبل از شروع کار با شما هماهنگ می‌گردد.
-                    </p>
-
-                </details>
-
-                <details class="border-b pb-3">
-                    <summary class="cursor-pointer font-medium">6. اگر از کار انجام شده راضی نبودم چه کار کنم؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        می‌توانید از طریق بخش پشتیبانی سایت شکایت یا نظر خود را ثبت کنید تا تیم ما موضوع را بررسی کند.
-                    </p>
-                </details>
-            </div>
-        </article>
-        
-        <article id="employee-faq" class="bg-white p-8 rounded-2xl shadow-md  dark:bg-teal-900 dark:shadow-emerald-900">
-            <h3 class="text-2xl font-semibold mb-6 text-yellow-400">
-            سوالات متداول برای کاریگران
-
-            </h3>
-
-            <div class="space-y-4">
-                <details class="border-b pb-3">
-                    <summary class="cursor-pointer font-medium">1. چگونه می‌توانم به عنوان کاریگر در سایت ثبت‌نام کنم؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        با رفتن به بخش ثبت‌نام کاریگران، اطلاعات شخصی و مهارت‌های خود را وارد کنید و پس از تایید حساب شما فعال می‌شود.
-                    </p>
-                </details>
-
-                <details class="border-b pb-3">
-                    <summary class="cursor-pointer font-medium">2. آیا ثبت‌نام کاریگران رایگان است؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        بله، ثبت‌نام اولیه رایگان است. ممکن است برای دریافت پروژه‌ها شرایط خاصی وجود داشته باشد.
-                    </p>
-                </details>
-
-                <details class="border-b pb-3">
-                    <summary class="cursor-pointer font-medium">3. چگونه پروژه یا کار دریافت کنم؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        بعد از فعال شدن حساب، درخواست‌های مرتبط با مهارت شما نمایش داده می‌شود و می‌توانید آنها را قبول کنید.
-                    </p>
-                </details>
-
-                <details class="border-b pb-3">
-                    <summary class="cursor-pointer font-medium">4. چگونه پول کار خود را دریافت کنم؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        پرداخت می‌تواند به صورت مستقیم از طرف کارفرما یا از طریق سیستم پرداخت سایت انجام شود.
-                    </p>
-                </details>
-
-                <details class="border-b pb-3">
-                    <summary class="cursor-pointer font-medium">5. چگونه اعتبار یا امتیاز من در سایت بالا می‌رود؟</summary>
-                    <p class="mt-2 text-gray-600 dark:text-cyan-50">
-                        با انجام کار با کیفیت، دریافت نظر مثبت از مشتریان و تکمیل پروژه‌ها امتیاز شما افزایش می‌یابد.
-                    </p>
-                </details>
-            </div>
-        </article>
-
-       </div>
-
-    </section>
-  </nav>
-</header>
-</body>
+    <!-- Footer of the page -->
+    <footer>
+      <!-- container for the links and headers -->
+      <div>
+        <div>
+          <h2>کار ساز<i class="fa-solid fa-search"></i></h2>
+          <p>با ما به پیوندید تا به آینده یک قدمی پیش شویم</p>
+        </div>
+        <div>
+          <h2>خدمات</h2>
+          <ul>
+            <li><a href="">نلدوانی</a></li>
+            <li><a href="">برق کاری </a></li>
+            <li><a href="">روز مزد</a></li>
+            <li><a href="">آرایشگری</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>لینک ها</h2>
+          <ul>
+            <li><a href="">درباره ما</a></li>
+            <li><a href="">تماس با ما </a></li>
+            <li><a href="">شرایط استفاده</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>تماس</h2>
+          <ul>
+            <li>کابل ، افغانستان</li>
+            <li><a href="">+93765151633</a></li>
+            <li><a href="">karsaz@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2>به آمید ❤️ افغانستان سر بلند.</h2>
+        </div>
+        <div>
+          <h2>با ما به سوی پیشرفت .</h2>
+          <button>Join</button>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
