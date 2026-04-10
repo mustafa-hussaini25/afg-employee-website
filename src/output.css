@@ -197,7 +197,7 @@
     visibility: collapse;
   }
   .visible {
-    visibility: visible;
+visibility: visible;
   }
   .absolute {
     position: absolute;
