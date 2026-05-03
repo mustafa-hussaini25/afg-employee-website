@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="../../../../fontawesome-free-7.1.0-web/css/all.css">
+    <title>Panel Management</title>
+</head>
+<body class="bg-[#071a16] w-full h-[173vh] pb-10">
+    
+    <!-- header setcion  -->
+
+    <header class="bg-[#0f2a24] flex items-center justify-between p-2.5 sticky top-0 font-sans">
+        <div class="flex items-center ">
+        <p class="text-[rgb(180,175,175)]  text-[18px] font-bold ml-2" ><i class="fa-solid fa-wrench
+          bg-[rgb(73,162,73)] pl-7.5 pt-1.75 pb-1.75 pr-2 rounded-[7px] ml-2 text-black" ></i>کارساز</p>
+          <p class="mr-3 ml-2 text-[#ccc]">|</p>
+          <p class="mr-3 text-[#ccc] text-[18px] font-bold">پنل مدیریت</p>
+        </div>
+        <div class="flex items-center justify-center gap-6" >
+        <i class="fa-solid fa-moon text-[#ccc] cursor-pointer"></i>
+        <i class="fa-solid fa-bell text-[#ccc]"></i>
+        <p class="ml-2 cursor-pointer text-[#f3f6f9] text-[18px] mr-4 font-bold hover:text-[rgb(73,162,73)]"> <i class="fa-solid fa-home ml-1"></i>صفحه اصلی </p>
+        </div>
+   </header>
+
+   <!-- hero section  -->
+
+   <div class="flex gap-1.75 mt-4 pr-4">
+    <button class="text-[#aeaaaa] bg-[#070f10] pt-2 pb-2 pr-5 pl-5 rounded-2xl cursor-pointer text-[17px] focus:bg-[rgb(73,162,73)] focus:text-black"> <i class="fa-solid fa-gauge ml-1.5"></i>نمای کلی</button>
+    <button class="text-[#aeaaaa] bg-[#070f10] pt-2 pb-2 pr-5 pl-5 rounded-2xl cursor-pointer text-[17px] focus:bg-[rgb(73,162,73)] focus:text-black"> <i class="fa-solid fa-users ml-1.5"></i>کارگران</button>
+    <button class="text-[#aeaaaa] bg-[#070f10] pt-2 pb-2 pr-5 pl-5 rounded-2xl cursor-pointer text-[17px] focus:bg-[rgb(73,162,73)] focus:text-black"> <i class="fa-solid fa-clipboard-list ml-1.5"></i>سفارشات</button>
+    <button class="text-[#aeaaaa] bg-[#070f10] pt-2 pb-2 pr-5 pl-5 rounded-2xl cursor-pointer text-[17px] focus:bg-[rgb(73,162,73)] focus:text-black"> <i class="fa-solid fa-gear ml-1.5"></i>تنظیمات</button>
+</div>
+
+<div class="flex justify-center gap-3 mt-7">
+    <div class="bg-[#070f10] rounded-2xl p-6 w-[24%] mt-4">
+        <div class="flex justify-between text-[rgb(73,162,73)] text-[17px]">
+            <span class="fa-solid fa-users text-[19px] bg-[rgba(33,61,33,0.3)] pt-3 pb-3 pr-3 pl-9 rounded-lg"></span>
+            <p class="mt-2"><i class="fa-solid fa-arrow-up ml-1"></i>+12%</p>
+        </div>
+        <p class="text-[23px] text-[#f3f6f9] mt-4 font-bold">1,248</p>
+        <p class="text-[#ccc] text-[17px] mt-1">کل کارگران</p>
+    </div>
+
+    <div class="bg-[#070f10] rounded-2xl p-6 w-[24%] mt-4">
+        <div class="flex justify-between text-[rgb(73,162,73)] text-[17px]">
+            <span class="fa-solid fa-clipboard-list text-[19px] bg-[rgba(33,61,33,0.3)] pt-3 pb-3 pr-4 pl-8 rounded-lg"></span>
+            <p class="mt-2"><i class="fa-solid fa-arrow-up ml-1"></i>+8%</p>
+        </div>
+        <p class="text-[23px] text-[#f3f6f9] mt-4 font-bold">400</p>
+        <p class="text-[#ccc] text-[17px] mt-1">سفارشات فعال</p>
+    </div>
+
+    <div class="bg-[#070f10] rounded-2xl p-6 w-[24%] mt-4">
+        <div class="flex justify-between text-[rgb(73,162,73)] text-[17px]">
+            <span class="fa-solid fa-arrow-trend-up text-[19px] bg-[rgba(33,61,33,0.3)] pt-3 pb-3 pr-3 pl-9 rounded-lg"></span>
+            <p class="mt-2"><i class="fa-solid fa-arrow-up ml-1"></i>+23%</p>
+        </div>
+        <p class="text-[23px] text-[#f3f6f9] mt-4 font-bold">450,000 افغانی</p>
+        <p class="text-[#ccc] text-[17px] mt-1">در آمد ماهانه</p>
+    </div>
+
+    <div class="bg-[#070f10] rounded-2xl p-6 w-[24%] mt-4">
+        <div class="flex justify-between text-[rgb(73,162,73)] text-[17px]">
+            <span class="fa-solid fa-star text-[19px] bg-[rgba(33,61,33,0.3)] pt-3 pb-3 pr-3 pl-9 rounded-lg"></span>
+            <p class="mt-2 text-red-500"><i class="fa-solid fa-arrow-down  ml-1"></i>- 2%</p>
+        </div>
+        <p class="text-[23px] text-[#f3f6f9] mt-4 font-bold">94%</p>
+        <p class="text-[#ccc] text-[17px] mt-1">رضایت مشتریان</p>
+    </div>
+</div>
+
+<div class="mt-4 mb-4 flex justify-center gap-3">
+    <div class="bg-[#070f10] rounded-2xl p-5 w-[68%]">
+        <h3 class="text-[#f3f6f9] text-[23px] font-bold">سفارشات ماهانه</h3>
+        <div class="flex mt-[18%] text-[#ccc] justify-between p-7">
+            <p>فروردین</p>
+            <p>اردبهشت</p>
+            <p>خرداد</p>
+            <p>تبر</p>
+            <p>مرداد</p>
+            <p>شهریور</p>
+        </div>
+    </div>
+
+    <div class="bg-[#070f10] rounded-2xl w-[30%] p-4">
+        <h2 class="text-[#f3f6f9] text-[23px] font-bold">توزیع خدمات</h2>
+
+        <div class="mb-2 mt-3">
+            <div class="flex justify-between">
+            <p class="text-[17px] text-[#f3f6f9]">نلدوان</p>
+            <p class="text-[17px] text-[#777]">50%</p>
+        </div>
+            <div class="w-full bg-gray-700 rounded-full h-2 mt-1"><div class="bg-[rgb(73,162,73)] h-2 rounded-full" style="width:50%;" ></div></div>
+        </div>
+
+        <div class="mb-2 mt-3">
+            <div class="flex justify-between">
+            <p class="text-[17px] text-[#f3f6f9]">برقکار</p>
+            <p class="text-[17px] text-[#777]">40%</p>
+        </div>
+            <div class="w-full bg-gray-700 rounded-full h-2 mt-1"><div class="bg-[rgb(73,162,73)] h-2 rounded-full" style="width:40%;" ></div></div>
+        </div>
+
+        <div class="mb-2 mt-3">
+            <div class="flex justify-between">
+            <p class="text-[17px] text-[#f3f6f9]">نقاش</p>
+            <p class="text-[17px] text-[#777]">30%</p>
+        </div>
+            <div class="w-full bg-gray-700 rounded-full h-2 mt-1"><div class="bg-[rgb(73,162,73)] h-2 rounded-full" style="width:30%;" ></div></div>
+        </div>
+
+        <div class="mb-2 mt-3">
+            <div class="flex justify-between">
+            <p class="text-[17px] text-[#f3f6f9]">مکانیک</p>
+            <p class="text-[17px] text-[#777]">12%</p>
+        </div>
+            <div class="w-full bg-gray-700 rounded-full h-2 mt-1"><div class="bg-[rgb(73,162,73)] h-2 rounded-full" style="width:12%;" ></div></div>
+        </div>
+
+        <div class="mb-2 mt-3">
+            <div class="flex justify-between">
+            <p class="text-[17px] text-[#f3f6f9]">نجار</p>
+            <p class="text-[17px] text-[#777]">8%</p>
+        </div>
+            <div class="w-full bg-gray-700 rounded-full h-2 mt-1"><div class="bg-[rgb(73,162,73)] h-2 rounded-full" style="width:8%;" ></div></div>
+        </div>
+    </div>
+  </div>
+  
+  <div class="p-5 bg-[#070f10] rounded-2xl mr-2 ml-2">
+    <div class="flex justify-between">
+       <h2 class="text-[#f3f6f9] text-[23px] font-bold">آخرین سفارشات</h2>
+       <p class="text-[rgb(73,162,73)] font-bold cursor-pointer hover:text-[rgb(73,162,73,0.4)]">مشاهده همه   ></p>
+    </div>
+
+    <div class="flex gap-29 p-2 mt-4">
+
+        <div class="text-[17px]">
+            <p class="text-[#777] mb-4">شماره</p>
+            <p class="mb-7 text-[#f3f6f9]">#1024</p>
+            <p class="mb-7 text-[#f3f6f9]">#1025</p>
+            <p class="mb-7 text-[#f3f6f9]">#1026</p>
+        </div>
+        <div class="text-[17px]">
+            <p class="text-[#777] mb-4">مشتری</p>
+            <p class="mb-7 text-[#f3f6f9]">فاطمه احمدی</p>
+            <p class="mb-7 text-[#f3f6f9]">زهرا حسینی</p>
+            <p class="mb-7 text-[#f3f6f9]">مریم کریمی</p>
+        </div>
+        <div class="text-[17px]" >
+            <p class="text-[#777] mb-4">کارگر</p>
+            <p class="mb-7 text-[#f3f6f9]">احمد رحیمی</p>
+            <p class="mb-7 text-[#f3f6f9]">محمد حسینی</p>
+            <p class="mb-7 text-[#f3f6f9]">علی کریمی</p>
+        </div>
+        <div class="text-[17px]">
+            <p  class="text-[#777] mb-4">خدمات</p>
+            <p class="mb-7 text-[#f3f6f9]">تعمیر لوله</p>
+            <p class="mb-7 text-[#f3f6f9]">نصب پریز</p>
+            <p class="mb-7 text-[#f3f6f9]">رنگ آمیزی اتاق</p>
+        </div>
+        <div class="text-[17px]">
+            <p class="text-[#777] mb-4">وضعیت</p>
+            <p class="mb-4 bg-[rgba(33,61,33,0.3)] pt-1 pb-1 pr-8 rounded-2xl text-[rgb(73,162,73)]">تکمیل</p>
+            <p class="mb-4  bg-[rgba(75,79,26,0.54)] pt-1 pb-1 pr-3 pl-3 rounded-2xl text-[rgb(200,100,100)]">در حال انجام</p>
+            <p class="mb-3  bg-[rgba(75,79,26,0.54)] pt-1 pb-1 pr-5 pl-3 rounded-2xl text-[rgb(200,100,100)]">در انتظار</p>
+        </div>
+        <div class="text-[17px]">
+            <p class="text-[#777] mb-4">مبلغ</p>
+            <p class="mb-7 text-[#f3f6f9]">2,500 افغانی</p>
+            <p class="mb-7 text-[#f3f6f9]">1,900 افغانی</p>
+            <p class="mb-7 text-[#f3f6f9]">4,500 افغانی</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
